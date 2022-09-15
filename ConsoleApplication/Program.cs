@@ -33,11 +33,11 @@ namespace ConsoleApplication
             string widthString, heightString;
             Console.WriteLine("Welcome to glass area calculator!");
 
-            Console.Write("Please enter the width of the window in feet: ");
+            Console.Write("Please enter the width of the window in meters: ");
             widthString = Console.ReadLine();
             width = double.Parse(widthString);
 
-            Console.Write("Please enter the height of the window in feet: ");
+            Console.Write("Please enter the height of the window in meters: ");
             heightString = Console.ReadLine();
             height = double.Parse(heightString);
             
@@ -47,7 +47,7 @@ namespace ConsoleApplication
             Console.WriteLine("The length of the wood is " +
             woodLength + " feet");
             Console.WriteLine("The area of the glass is " +
-            glassArea + " square metres");
+            glassArea + " square meters");
 
 
 
